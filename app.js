@@ -15,9 +15,9 @@ const server = http.createServer((req, res) => {
   ])
   .then(responseArr => {
     //this will be executed only when all requests are complete
-    console.log('Tunis: ', responseArr[0].data.weather);
-    console.log('Paris: ', responseArr[1].data.weather);
-    console.log('London: ', responseArr[2].data.weather);
+    console.log('Paris: ', responseArr[0].data.weather);
+    console.log('Oran: ', responseArr[1].data.weather);
+    console.log('New york: ', responseArr[2].data.weather);
    
   });
 });
